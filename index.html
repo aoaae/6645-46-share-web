@@ -4,7 +4,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTML Tutorial</title>
-
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #007acc;
+    }
+    ul {
+      padding: 0;
+      list-style: none;
+    }
+    li {
+      margin: 10px 0;
+    }
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    pre {
+      background-color: #f4f4f4;
+      padding: 10px;
+      border-left: 3px solid #007acc;
+      font-size: 14px;
+    }
+  </style>
 </head>
 <body>
 
@@ -13,22 +43,22 @@
   
   <h2>Topics</h2>
   <ul>
-    <li>Introduction to HTML</li>
-    <li>HTML Document Structure</li>
-    <li>Heading</li>
-    <li>Paragraph</li>
-    <li>Text Formatting</li>
-    <li>Creating Links</li>
-    <li>Lists (Ordered and Unordered)</li>
-    <li>Adding Images</li>
-    <li>Creating Tables</li>
-    <li>HTML Forms</li>
-    <li>Embedding Multimedia (Audio & Video)</li>
-    <li>Semantic HTML</li>
+    <li><a href="#introduction">Introduction to HTML</a></li>
+    <li><a href="#structure">HTML Document Structure</a></li>
+    <li><a href="#heading">Heading</a></li>
+    <li><a href="#paragraph">Paragraph</a></li>
+    <li><a href="#text-formatting">Text Formatting</a></li>
+    <li><a href="#links">Creating Links</a></li>
+    <li><a href="#lists">Lists (Ordered and Unordered)</a></li>
+    <li><a href="#images">Adding Images</a></li>
+    <li><a href="#tables">Creating Tables</a></li>
+    <li><a href="#forms">HTML Forms</a></li>
+    <li><a href="#multimedia">Embedding Multimedia (Audio & Video)</a></li>
+    <li><a href="#semantic">Semantic HTML</a></li>
   </ul>
 
   <hr>
-  <h2>Introduction to HTML</h2>
+  <h2 id="introduction">Introduction to HTML</h2>
   <pre>
     - HTML stands for Hyper Text Markup Language
     - HTML is the standard markup language for creating Web pages
@@ -41,9 +71,10 @@
     - HTML can embed programs written in a scripting language such as JavaScript, which affects the behavior and content of web pages
     - HTML is not a programming language, but a markup language
   </pre>
+  <a href="index.html">Top</a>
 
   <hr>
-  <h2>HTML Document Structure</h2>
+  <h2 id="structure">HTML Document Structure</h2>
   <p>An HTML document has the following basic structure...</p>
   <pre>
     คำอธิบาย:
@@ -64,10 +95,11 @@
             &lt;img src="image.jpg" alt="A description of the image"&gt;
 
   </pre>
+  <a href="index.html">Top</a>
 
   <hr>
-  <h2>Heading</h2>
-  <p>workshop</p>
+  <h2 id="heading">Heading</h2>
+  <p><a href="01_heading.html">workshop</a></p>
   <p>HTML headings are defined with the &lt;h1&gt; to &lt;h6&gt; tags...</p>
   <pre>
     - &lt;h1&gt;: Heading 1
@@ -77,18 +109,20 @@
     - &lt;h5&gt;: Heading 5
     - &lt;h6&gt;: Heading 6
   </pre>
+  <a href="index.html">Top</a> 
 
   <hr>
-  <h2>Paragraph</h2>
-  <p>workshop</p>
+  <h2 id="paragraph">Paragraph</h2>
+  <p><a href="02_paragraph.html">workshop</a></p>
   <p>HTML paragraphs are defined with the &lt;p&gt; tag...</p>
   <pre>
     - &lt;p&gt;: Paragraph
   </pre>
+  <a href="index.html">Top</a>
 
   <hr>
-  <h2>Text Formatting</h2>
-  <p>workshop</p>
+  <h2 id="text-formatting">Text Formatting</h2>
+  <p><a href="03_formatting.html">workshop</a></p>
   <p>HTML provides various elements to format text...</p>
   <pre>
     - &lt;h1&gt; to &lt;h6&gt;: Headings
@@ -121,11 +155,11 @@
 
     - &lt;code&gt;: Code snippet
   </pre>
- 
+  <a href="index.html">Top</a>
 
   <hr>
-  <h2>Creating Links</h2>
-  <p>workshop</p>
+  <h2 id="links">Creating Links</h2>
+  <p><a href="04_link.html">workshop</a></p>
   <p>HTML links are defined with the &lt;a&gt; tag...</p>
   <pre>
     - &lt;a href="url" target=""&gt;Link text&lt;/a&gt;
@@ -152,11 +186,15 @@
     - Download links:
         - Use the download attribute to create a download link
         - Example: &lt;a href="file.txt" download&gt;Download Text File&lt;/a&gt;
+
+
+
   </pre>
+  <a href="index.html">Top</a>
 
   <hr>
-  <h2>Lists (Ordered and Unordered)</h2>
-  <p>workshop</p>
+  <h2 id="lists">Lists (Ordered and Unordered)</h2>
+  <p><a href="05_list.html">workshop</a></p>
   <p>HTML lists are defined with the &lt;ul&gt;, &lt;ol&gt;, and &lt;li&gt; tags...</p>
   <pre>
     - &lt;ul&gt;: Unordered list
@@ -202,10 +240,11 @@
         - Example: &lt;ol style="list-style-type: upper-roman;"&gt;
         - Example: &lt;ol style="list-style-type: lower-roman;"&gt;
   </pre>
+  <a href="index.html">Top</a>
 
   <hr>
-  <h2>Adding Images</h2>
-  <p>workshop</p>
+  <h2 id="images">Adding Images</h2>
+  <p><a href="06_image.html">workshop</a></p>
   <p>HTML images are defined with the &lt;img&gt; tag...</p>
   <pre>
     - &lt;img src="url" alt="description"&gt;
@@ -253,40 +292,97 @@
                 object-fit: cover;
             }
   </pre>
+  <a href="index.html">Top</a>
 
 
   <hr>
-  <h2>Creating Tables</h2>
+  <h2 id="tables">Creating Tables</h2>  
+  <p><a href="07_table.html">workshop</a></p>
   <p>HTML tables are defined with the &lt;table&gt;, &lt;tr&gt;, &lt;th&gt;, and &lt;td&gt; tags...</p>
   <pre>
     - &lt;table&gt;: Table
     - &lt;tr&gt;: Table row
     - &lt;th&gt;: Table header
     - &lt;td&gt;: Table data/cell
+
+    ต้องเข้าใจการใช้แอตทริบิวต์ เช่น border, colspan, rowspan และการจัดรูปแบบด้วย CSS
+
+    - การใช้ colspan เพื่อรวมหลายคอลัมน์
+    - การใช้ rowspan เพื่อรวมหลายแถว
+    - การจัดข้อความในตารางด้วย CSS (text-align)
+    
+    การเพิ่มการตกแต่งตารางด้วย CSS
+    - การใช้ border-collapse เพื่อรวมเส้นขอบตาราง
+    - การใช้ nth-child() เพื่อจัดสีแถวที่สลับกัน
+    - การใช้ :hover เพื่อเพิ่มเอฟเฟกต์เมื่อเมาส์ชี้
   </pre>
+  <a href="index.html">Top</a>
 
   <hr>
-  <h2>HTML Forms</h2>
+  <h2 id="forms">HTML Forms</h2>
   <p>HTML forms are defined with the &lt;form&gt; tag...</p>
   <pre>
-    - &lt;form&gt;: Form
-    - &lt;input&gt;: Input field
-    - &lt;textarea&gt;: Text area
-    - &lt;button&gt;: Button
-    - &lt;select&gt;: Dropdown list
-    - &lt;option&gt;: Option in a dropdown list
+    หัวข้อเกี่ยวกับฟอร์ม
+
+    1. โครงสร้างพื้นฐานของฟอร์ม
+
+       - &lt;form>: ใช้เป็นตัวครอบข้อมูลในฟอร์ม
+       - action และ method (GET/POST): การกำหนดปลายทางและวิธีส่งข้อมูล
+
+    2. ชนิดของอินพุต (Input Types)
+
+       - &lt;input>: ชนิดต่าง ๆ เช่น text, password, email, number, 
+                              radio, checkbox, date, file
+       - &lt;textarea>: ช่องข้อความขนาดใหญ่
+       - &lt;select> และ  &lt;option>: เมนูแบบเลื่อนลง  
+
+       - &lt;datalist>: รายการตัวเลือกที่กำหนดไว้ล่วงหน้า
+       - &lt;optgroup>: กลุ่มตัวเลือก
+
+       - &lt;fieldset> และ &lt;legend>: กลุ่มข้อมูลที่เกี่ยวข้อง
+
+
+    3. ปุ่มในฟอร์ม
+
+       - &lt;button>: ปุ่มทั่วไป
+       - &lt;input type="submit"> และ &lt;input type="reset">: ปุ่มส่งและล้างข้อมูล
+       - &lt;input type="button">: ปุ่มทั่วไป
+       - &lt;input type="image">: ปุ่มรูปภาพ
+       - &lt;input type="file">: ปุ่มอัพโหลดไฟล์
+
+    4. การจัดการป้ายกำกับ (Labels)
+
+       - &lt;label>: เพื่อเชื่อมกับ &lt;input> (ช่วยเพิ่มการเข้าถึง)
+       - for: ระบุ id ของอินพุตที่เกี่ยวข้อง
+
+    5. การตรวจสอบข้อมูล (Validation)
+
+       - คุณสมบัติ เช่น required, min, max, pattern
+       - การใช้ JavaScript เพื่อทำการตรวจสอบ
+
+    6. ฟอร์มแบบสมัยใหม่ (HTML5)
+
+       - placeholder: ตัวอย่างข้อความในช่องอินพุต
+       - autofocus: ให้ฟอร์มเริ่มต้นโฟกัส
+
+    7. การส่งฟอร์ม (Form Submission)
+
+       - การส่งข้อมูลไปยังเซิร์ฟเวอร์
+       - การใช้ JavaScript (เช่น onsubmit)
   </pre>
+  <a href="index.html">Top</a>
 
   <hr>
-  <h2>Embedding Multimedia (Audio & Video)</h2>
+  <h2 id="multimedia">Embedding Multimedia (Audio & Video)</h2>
   <p>HTML multimedia elements include &lt;audio&gt; and &lt;video&gt;...</p>
   <pre>
     - &lt;audio&gt;: Audio player
     - &lt;video&gt;: Video player
   </pre>
+  <a href="index.html">Top</a>
 
   <hr>
-  <h2>Semantic HTML</h2>
+  <h2 id="semantic">Semantic HTML</h2>
   <p>Semantic HTML elements clearly define the content of a web page...</p>
   <pre>
     - &lt;header&gt;: Defines a header for a document or section
@@ -296,14 +392,15 @@
     - &lt;aside&gt;: Defines content aside from the page content
     - &lt;footer&gt;: Defines a footer for a document or section
   </pre>
+  <a href="index.html">Top</a>
 
   <hr>
-  <p>Learn more about HTML</p>
+  <a href="https://www.w3schools.com/html/default.asp" target="_blank">Learn more about HTML</a>
   
 
   <footer>
     <hr>
-    <p>&copy; 2024 HTML Tutorial by [Your Name]</p>
+    <p style="text-align: center;">© 2024 HTML Tutorial by [Your Name]</p>
   </footer>
 
 </body>
